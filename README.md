@@ -11,7 +11,7 @@ The main point is that the **server acl will be set for the group of the server*
 Once you retrieved the files the following command will install dependencies (mainly the Symfony console component):
 *composer install* or
 *php composer.phar install* if composer is not in the path
-> see [how to install composer](https://getcomposer.org/doc/00-intro.md#system-requirements) if you don't use it yet.
+> see [how to install composer](https://getcomposer.org/doc/00-intro.md) if you don't use it yet. 
 ## Second step 
 Next the only thing to do is to set the user and the group properties in src/wac-conf.json
 ## Test
