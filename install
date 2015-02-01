@@ -1,0 +1,8 @@
+#!/bin/sh
+
+sudo mkdir /usr/share/web-auth-conf
+sudo cp -r src vendor /usr/share/web-auth-conf/
+sudo cp web-auth-config.php  /usr/bin/web-auth-config
+sudo chmod u+xr /usr/bin/web-auth-config
+sudo sed -i 's/vendor\/autoload/\/usr\/share\/web-auth-conf\/vendor\/autoload/g' /usr/bin/web-auth-config
+sudo sed -i 's/src\/wac-conf/\/usr\/share\/web-auth-conf\/src\/wac-conf/g' /usr/bin/web-auth-config

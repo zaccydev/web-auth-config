@@ -1,0 +1,11 @@
+{
+  "name": "zaccydev/web-auth-config",
+  "description": "Allow to set user, group and acl for a web project",
+  "require": {
+    "symfony/console" : "~2.4.1"
+  },
+  "autoload": {
+    "psr-4" : {"WebAuthConfHld\\" :"src/"}
+  }
+
+}

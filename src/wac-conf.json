@@ -1,0 +1,11 @@
+{
+  "user" : "",
+  "group" : "",
+  "acl-master" : "u+rw",
+  "acl-server" : "g+rw",
+  "acl-project" : "u+rwX,g+rX",
+  "project-path": {
+    "drupal": { "public" : "sites/default/files" },
+    "symfony": { "cache": "app/cache", "logs": "app/logs"}
+   }
+}
